@@ -38,7 +38,9 @@ function Empty() {
 function App() {
 
   const {loading,data,refetch} = useQuery(GET_POSTS,{
-    fetchPolicy : "network-Only"
+    fetchPolicy : "network-Only",
+     onCompleted : ()=> refetch()
+
   });
 
     if(loading) return <div>Loading. .</div>;
