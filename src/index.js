@@ -18,8 +18,8 @@ ReactDOM.render(
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={App} />
-          <Route exact path ="/new" component={NewPost} />
-          <Route exact path = "/edit/:id" component = {EditPost} />
+          <Route  path ="/new" component={NewPost} />
+          <Route  path = "/edit/:id" component = {EditPost} />
         </Switch>
       </BrowserRouter>
     </ApolloProvider>
