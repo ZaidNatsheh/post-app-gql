@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/new"
+  to = "/new"
+  status = 200
